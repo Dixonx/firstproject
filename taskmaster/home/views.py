@@ -8,4 +8,4 @@ def index(request):
     return render(request, 'home/index.html')
 
 def contact(request):
-    return HttpResponse("<h4>Contact</h4>")
+    return render(request, 'Contact/index.html')
